@@ -87,6 +87,7 @@ section {
 
 .article-img img {
   width: 100%;
+  height: 100%;
   object-fit: cover;
 }
 
@@ -342,9 +343,8 @@ td {
   section {
     width: 69%;
   }
-  .article-img img {
+  .article-img {
     width: 80%;
-    margin: 0 0 20px;
   }
   .article-wrap {
     display: block;
@@ -387,9 +387,6 @@ td {
   section {
     width: 60%;
   }
-  .article-img img {
-    width: 60%;
-  }
   .article-content h4 {
     font-size: 25px;
   }
@@ -423,9 +420,6 @@ td {
   .header-nav a {
     font-size: 8px;
   }
-  .article-img img {
-    width: 50%;
-  }
   .search {
     width: 140px;
   }
@@ -440,10 +434,6 @@ td {
   }
   .header-nav img {
     width: 90px;
-  }
-  .article-img img {
-    width: 40%;
-    margin: 0 0 10px;
   }
   .article-content h4 {
     font-size: 18px;
@@ -469,12 +459,5 @@ td {
   }
   .month td {
     height: 10px;
-  }
-}
-
-@media (max-width: 350px) {
-  .article-img img {
-    width: 35%;
-    margin: 0 0 10px;
   }
 }
