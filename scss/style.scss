@@ -118,16 +118,16 @@ section {
 					color: #111;
 				}
 				a:hover {
-					color: #e3b002;
+					color: #f7c61d;
 				}
 
  				h4:hover {
-					color: #e3b002;
+					color: #f7c61d;
 				}
 
 }
 
-.gray {
+.textColor {
 	margin: 0 0 20px;
 	color: #999999;
 	font-family: PNL;
@@ -140,9 +140,13 @@ section {
  	padding-left: 10px;
 }
 
-.gold {
-	color: #e3b002;	
+.linkColor {
+	color: #f7c61d;	
 	font-family: PNL;
+}
+
+.colorOfPicture {
+	color: #999999;
 }
 
 aside {
@@ -207,13 +211,10 @@ input[type="search"] {
 
 .month td, th {
 	border: 1px solid #e5e5e5;
-	
 }
 
 th {
 	height: 35px;
-	border-left: 1px solid #fff;
-	border-right: 1px solid #fff;
 }
 
 td {
@@ -295,7 +296,7 @@ td {
 						font-weight: 600;
 					}
 					a:hover {
-						color: #fff;
+						color: #EEF;
 					}
 }
 
