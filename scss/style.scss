@@ -46,7 +46,6 @@ header {
 main {
 	overflow:hidden;
 	position: relative;
-
 }
 
 section {
@@ -96,8 +95,6 @@ section {
 						}
 }
 
-
-
 .article-content {
 	margin-left: 26px;
 	float: right;
@@ -124,7 +121,6 @@ section {
  				h4:hover {
 					color: #f7c61d;
 				}
-
 }
 
 .textColor {
@@ -155,7 +151,6 @@ aside {
 	float: left;
 }
 
-
 .search {
   width: 240px;
   position: absolute;
@@ -175,7 +170,6 @@ aside {
   					outline: none
 				}
 }
-
 
 .input:focus {
   box-shadow: inset 0 0 5px rgba(0,0,0,0.2), inset 0 1px 2px rgba(0,0,0,0.4);
@@ -238,7 +232,6 @@ td {
 					}
 }
 
-
 .second-tr {
 	background-color: #e7e7e7;
 }
@@ -281,8 +274,6 @@ td {
 	overflow:hidden;
 }
 
-
- 
 .footer-nav {
 	height: inherit;
 	width: 30%;
@@ -417,7 +408,7 @@ td {
 	}
 	.footer-nav a {
 		font-size: 10px;}
-	.fab fa-facebook-f {
+	.fa-facebook-f {
 		height: 10px;
 	}
 }
